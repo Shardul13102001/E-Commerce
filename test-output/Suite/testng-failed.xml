@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.TC04_PlaceOrder">
+        <methods>
+          <include name="tearDown"/>
+          <include name="placeOrder"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.TC04_PlaceOrder -->
+      <class name="tests.TC03_AddProductInCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="accProduct"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.TC03_AddProductInCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
